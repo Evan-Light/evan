@@ -1,0 +1,61 @@
+# numbers = [1,2,3,4]
+# print(numbers)
+# fruits = ["apple","cherries","bananas"]
+# print(fruits)
+# mixed=["hello",5,True,None]
+# print(numbers[-1]) 
+# print(mixed)
+# fruits[0]="grape"
+# numbers.append(6)
+
+# print(numbers)
+# print(mixed.insert(1,False))
+# print(mixed)
+# fruits.remove("bananas")
+# print(fruits)
+# fruits.pop(0)
+# print(fruits)
+# numbers.pop()
+# for num in numbers: 
+#     print(num)
+
+# nums = [2,4,6,8,10,12]
+# print(nums[::-1])
+# print(nums)
+
+# bugs={
+#     "ants":["black","fire"],
+#     "spiders":["black widow","tarantula"],
+#     "flys":["horse","house"]}
+# print(bugs.items())
+
+# numbers=[1,2,3,4,4,5,6]
+# print(numbers[2:5])
+
+# star={
+#     "name": "Vega",
+#     "magnitude":0.57,
+#     "distanec":25.05}
+# star["class"]="A0V"
+# for key in star.keys():
+#     print(key)
+
+# list1=(list(range(0,11)))
+# print(list1)
+# print(list1[:5])
+# print(list1[1::2])
+# print(list1[::-1])
+
+a=[2,4,6]
+b=[8,10,12]
+c=[14,16,18]
+nested_list=[a,b,c]
+print(nested_list[2][1])
+
+stars_data={
+"name":["Sirius","Vega","Altair"],
+"magnitude":[-1.46,0.03,0.77],
+"distance_ly":[8.6,25.0,16.17],
+"constellation":["Canis Major", "Lyra", "Aquila"]}
+
+for stars in stars_data.values(print("name"))
